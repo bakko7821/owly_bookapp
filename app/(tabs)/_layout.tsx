@@ -14,9 +14,9 @@ export default function TabsLayout() {
         <Icon sf="books.vertical.fill" />
       </NativeTabs.Trigger>
 
-      <NativeTabs.Trigger name="search">
-        <Label>Поиск</Label>
-        <Icon sf="magnifyingglass" />
+      <NativeTabs.Trigger name="search" role="search">
+        <NativeTabs.Trigger.Label>Поиск</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon sf="magnifyingglass" />
       </NativeTabs.Trigger>
 
       <NativeTabs.Trigger name="profile">

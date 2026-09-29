@@ -8,12 +8,12 @@ export default function HomeScreen() {
 
   return (
     <View
-      className="flex-1 items-center justify-center"
+      className="flex-1 items-start justify-start"
       style={{ backgroundColor: theme.background }}
     >
-      <Text className="text-3xl font-bold " style={{ color: theme.foreground }}>
-        Hello iPhone!
-      </Text>
+      <View className="bg-red-500 w-full pt-14 px-6 pb-4 items-start justify-start">
+        <Text className="text-4xl font-times font-bold">Главная</Text>
+      </View>
     </View>
   );
 }
