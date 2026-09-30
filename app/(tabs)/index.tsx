@@ -19,10 +19,10 @@ export default function HomeScreen() {
           Главная
         </Text>
       </View>
-      <View className="bg-red-300 w-full flex-1 flex-col items-start justify-around">
+      <View className=" w-full flex-1 flex-col items-start justify-start">
         <View
           style={{ backgroundColor: theme.card }}
-          className="w-full px-6 py-2 flex-col flex-1"
+          className="w-full px-6 py-2 flex-col items-start justify-start gap-2"
         >
           <View className="w-full flex-row items-center justify-between">
             <Text
@@ -37,10 +37,11 @@ export default function HomeScreen() {
               </Text>
             </TouchableOpacity>
           </View>
+          <View className="bg-green-300 p-4 w-full h-[200px]"></View>
         </View>
         <View
           style={{ backgroundColor: theme.border }}
-          className="w-full px-6 py-2 flex-col flex-1"
+          className="w-full px-6 py-2 flex-col items-start justify-start gap-2"
         >
           <View className="w-full flex-row items-center justify-between">
             <Text
@@ -55,6 +56,7 @@ export default function HomeScreen() {
               </Text>
             </TouchableOpacity>
           </View>
+          <View className="bg-green-300 p-4 w-full h-[200px]"></View>
         </View>
       </View>
     </View>
