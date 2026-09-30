@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         times: ["Times New Roman"],
+        roboto: ["Roboto"],
       },
     },
   },
